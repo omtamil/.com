@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ஓம்தமிழ் – OMTAMIL</title>
+    <meta name="description" content="Tamil Technology - Games, Apps, Videos. Tamil word games and educational content.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" href="assets/cropped-omtamil-logo.png"/>
+    <meta name="msapplication-TileImage" content="assets/cropped-omtamil-logo-2017-1-270x270.png"/>
+</head>
+<body>
+    <!-- Archive Notice -->
+    <section class="archive-notice">
+        <div class="container">
+            <h6>ஓம்தமிழ் OMTAMIL ceased active operations in 2022. This website is preserved as an archive and is no longer updated.<br>
+            We appreciate your past support and interest. நன்றி 🙏🏼</h6>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="logo-container">
+                        <img src="assets/omtamil-logo.png" alt="OMTAMIL Logo" class="hero-logo">
+                    </div>
+                    <div class="animated-headline">
+                        <span class="static-text">தமிழ்</span>
+                        <span class="dynamic-text" id="dynamicText">நுட்பவியல்</span>
+                    </div>
+                    <h1 class="hero-title">Tamil Technology</h1>
+                    <p class="hero-subtitle">Games • Apps • Videos</p>
+                </div>
+                <div class="hero-right">
+                    <img src="assets/gamification.png" alt="Gamification" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Menu Section -->
+    <section class="features-section" id="navigation">
+        <div class="container">
+            <div class="features-grid">
+                <a href="#games" class="feature-item" data-section="games">
+                    <div class="feature-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>விளையாட்டுகள்</h3>
+                    <h4>Games</h4>
+                </a>
+                
+                <a href="#apps" class="feature-item" data-section="apps">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>செயலிகள்</h3>
+                    <h4>Apps</h4>
+                </a>
+                
+                <a href="#events" class="feature-item" data-section="events">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>நிகழ்ச்சிகள்</h3>
+                    <h4>Events</h4>
+                </a>
+                
+                <a href="#videos" class="feature-item" data-section="videos">
+                    <div class="feature-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>விழியங்கள்</h3>
+                    <h4>Videos</h4>
+                </a>
+
+                <a href="#infographics" class="feature-item" data-section="infographics">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>விளக்கப்படங்கள்</h3>
+                    <h4>Infographics</h4>
+                </a>
+                
+                <a href="#news" class="feature-item" data-section="news">
+                    <div class="feature-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3>செய்தி</h3>
+                    <h4>News</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Word Games Section -->
+    <section class="games-section" id="games">
+        <div class="container">
+            <div class="games-grid">
+                <!-- Word Games Header -->
+                <div class="game-category">
+                    <div class="game-category-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>சொல் விளையாட்டுகள்</h3>
+                    <h2>Word Games</h2>
+                </div>
+
+                <!-- Soladle Game -->
+                <a href="https://github.com/omtamil/soladle" target="_blank" class="game-item">
+                    <div class="game-icon">
+                        <img src="assets/soladle.png" alt="Soladle">
+                    </div>
+                    <div class="game-screenshot">
+                        <img src="assets/soladle-game.png" alt="Soladle">
+                    </div>
+                    <div class="game-info">
+                        <h3>Soladle</h3>
+                        <p>Tamil Word Guessing Game</p>
+                    </div>
+                </a>
+
+                <!-- Sorputhir Game -->
+                <a href="https://github.com/omtamil/sorputhir" target="_blank" class="game-item">
+                    <div class="game-icon">
+                        <img src="assets/sorputhir.png" alt="Sorputhir">
+                    </div>
+                    <div class="game-screenshot">
+                        <img src="assets/sorputhir-game.png" alt="Sorputhir Screenshot">
+                    </div>
+                    <div class="game-info">
+                        <h3>Sorputhir</h3>
+                        <p>Tamil Crossword Puzzle Game</p>
+                    </div>
+                </a>
+
+                <!-- Sotredal Game -->
+                <a href="https://github.com/omtamil/sotredal" target="_blank" class="game-item">
+                    <div class="game-icon">
+                        <img src="assets/sotredal.png" alt="Sotredal">
+                    </div>
+                    <div class="game-screenshot">
+                        <img src="assets/sotredal-game.jpg" alt="Sotredal Screenshot">
+                    </div>
+                    <div class="game-info">
+                        <h3>Sotredal</h3>
+                        <p>Tamil Word Search Game</p>
+                    </div>
+                </a>
+
+
+                <!-- Solvarisai Game -->
+                <div class="game-item">
+                    <div class="game-icon">
+                        <img src="assets/solvarisai.png" alt="Solvarisai">
+                    </div>
+                    <div class="game-screenshot">
+                        <img src="assets/solvarisai-game.png" alt="Solvarisai Screenshot">
+                    </div>
+                    <div class="game-info">
+                        <h3>Solvarisai</h3>
+                        <p>Tamil Word Stack Game</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Apps Section -->
+    <section class="mobile-apps-section" id="apps">
+        <div class="container">
+            <div class="apps-grid">
+                <!-- Mobile Apps Header -->
+                <div class="apps-category">
+                    <div class="apps-category-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>மொபைல் செயலிகள்</h3>
+                    <h2>Mobile Apps</h2>
+                </div>
+                
+                <a href="https://github.com/thamizha/OMTAMIL-Kural" target="_blank" class="app-banner">
+                    <img src="assets/kural-app-slider.png" alt="KURAL - Multi Language Thirukkural App">
+                    <div class="app-banner-overlay">
+                        <h4>KURAL</h4>
+                        <p>Multi Language Thirukkural App</p>
+                    </div>
+                </a>
+                
+                <div class="app-banner">
+                    <img src="assets/kalaisol-app-slider.png" alt="KALAISOL - Tamil Terminology App">
+                    <div class="app-banner-overlay">
+                        <h4>KALAISOL</h4>
+                        <p>Tamil Terminology App</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Virtual Events Section -->
+    <section class="virtual-events-section" id="events">
+        <div class="container">
+            <div class="events-grid">
+                <!-- Events Header -->
+                <div class="events-category">
+                    <div class="events-category-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>மெய்நிகர் நிகழ்ச்சிகள்</h3>
+                    <h2>Virtual Events</h2>
+                </div>
+                
+                <div class="event-item" data-playlist="PLZamWoVO1z_yAvDfWjMxtN3Oex6oHjX0t">
+                    <div class="event-header">
+                        <img src="assets/competition.jpg" alt="Competitions">
+                        <h3>போட்டிகள்</h3>
+                        <h4>Competitions</h4>
+                        <div class="event-play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZamWoVO1z_yAvDfWjMxtN3Oex6oHjX0t" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+                <div class="event-item" data-playlist="PLZamWoVO1z_wi1m9Pt3lLqGEuazSQ7zPj">
+                    <div class="event-header">
+                        <img src="assets/webinars.png" alt="Webinars">
+                        <h3>வலையரங்கம்</h3>
+                        <h4>Webinars</h4>
+                        <div class="event-play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZamWoVO1z_wi1m9Pt3lLqGEuazSQ7zPj" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+                <div class="event-item" data-playlist="PLZamWoVO1z_yHR8M_VotTj3j6simoVIPu">
+                    <div class="event-header">
+                        <img src="assets/workshop.png" alt="Workshops">
+                        <h3>பயிலரங்கம்</h3>
+                        <h4>Workshops</h4>
+                        <div class="event-play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZamWoVO1z_yHR8M_VotTj3j6simoVIPu" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+                <div class="event-item" data-playlist="PLZamWoVO1z_w67TpLGCQi_2VQANX4KNBe">
+                    <div class="event-header">
+                        <img src="assets/conference.jpg" alt="Conferences">
+                        <h3>மாநாடு</h3>
+                        <h4>Conferences</h4>
+                        <div class="event-play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZamWoVO1z_w67TpLGCQi_2VQANX4KNBe" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section class="videos-section" id="videos">
+        <div class="container">
+            <div class="videos-grid">
+                <!-- Videos Header -->
+                <a href="https://www.youtube.com/@omtamil" target="_blank" class="videos-category">
+                    <div class="videos-category-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>விழியங்கள்</h3>
+                    <h2>Videos</h2>
+                </a>
+                
+                <div class="video-item" data-playlist="PLZamWoVO1z_xRqtZo0ROwujYCmgp2Q7re">
+                    <div class="video-thumbnail">
+                        <img src="https://i.ytimg.com/vi/6UiXKGyuKzE/hqdefault.jpg" alt="Video Playlist" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/6UiXKGyuKzE/hqdefault.jpg'">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZamWoVO1z_xRqtZo0ROwujYCmgp2Q7re" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-item" data-playlist="PLZamWoVO1z_zduV7QuIrtPqoILU9ynZcG">
+                    <div class="video-thumbnail">
+                        <img src="https://i.ytimg.com/vi/eqUaUvA22Mg/hqdefault.jpg" alt="Video Playlist" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/eqUaUvA22Mg/hqdefault.jpg'">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZamWoVO1z_zduV7QuIrtPqoILU9ynZcG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-item" data-playlist="PLZamWoVO1z_ypVTedxVtAH7q-7KscUaau">
+                    <div class="video-thumbnail">
+                        <img src="https://i.ytimg.com/vi/lip1RCAkYtE/hqdefault.jpg" alt="Video Playlist" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/lip1RCAkYtE/hqdefault.jpg'">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZamWoVO1z_ypVTedxVtAH7q-7KscUaau" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-item" data-playlist="PLZamWoVO1z_yEjVfTUtr6xQM_-g2SuBnm">
+                    <div class="video-thumbnail">
+                        <img src="https://i.ytimg.com/vi/Lk81Zm6k0EY/hqdefault.jpg" alt="Video Playlist" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/Lk81Zm6k0EY/hqdefault.jpg'">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZamWoVO1z_yEjVfTUtr6xQM_-g2SuBnm" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infographics Section -->
+    <section class="infographics-section" id="infographics">
+        <div class="container">
+            <div class="infographics-grid">
+                <!-- Infographics Header -->
+                <div class="infographics-category">
+                    <div class="infographics-category-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>விளக்கப்படங்கள்</h3>
+                    <h2>Infographics</h2>
+                </div>
+
+                <div class="infographic-item" onclick="openLightbox('assets/tamil-family-hierarchy.jpg', 'Tamil Family Hierarchy')">
+                    <img src="assets/tamil-family-hierarchy.jpg" alt="Tamil Family Hierarchy">
+                </div>
+
+                <div class="infographic-item" onclick="openLightbox('assets/6-senses-in-tolkappiyam.jpg', '6 Senses in Tolkappiyam')">
+                    <img src="assets/6-senses-in-tolkappiyam.jpg" alt="6 Senses in Tolkappiyam">
+                </div>
+
+                <div class="infographic-item" onclick="openLightbox('assets/ancient-learning-vs-21st-century-learning.jpg', 'Ancient Learning vs 21st Century Learning')">
+                    <img src="assets/ancient-learning-vs-21st-century-learning.jpg" alt="Ancient Learning vs 21st Century Learning">
+                </div>
+                
+                <div class="infographic-item" onclick="openLightbox('assets/world-tamil-populations.png', 'World Tamil Populations')">
+                    <img src="assets/world-tamil-populations.png" alt="World Tamil Populations">
+                </div>
+                <div class="infographic-item" onclick="openLightbox('assets/formation-and-evolution-of-tamil-scripts.png', 'Formation and Evolution of Tamil Scripts')">
+                    <img src="assets/formation-and-evolution-of-tamil-scripts.png" alt="Formation and Evolution of Tamil Scripts">
+                </div>
+                <div class="infographic-item" onclick="openLightbox('assets/5-types-of-land-in-ancient-tamil-literature.png', '5 Types of Land in Ancient Tamil Literature')">
+                    <img src="assets/5-types-of-land-in-ancient-tamil-literature.png" alt="5 Types of Land in Ancient Tamil Literature">
+                </div>
+
+                <div class="infographic-item" onclick="openLightbox('assets/12-oraikal.png', '12 Oraikal')">
+                    <img src="assets/12-oraikal.png" alt="12 Oraikal">
+                </div>
+
+                <div class="infographic-item" onclick="openLightbox('assets/7-strategies-of-war-in-tholkappiyam.png', '7 Strategies of War in Tholkappiyam')">
+                    <img src="assets/7-strategies-of-war-in-tholkappiyam.png" alt="7 Strategies of War in Tholkappiyam">
+                </div>
+                <div class="infographic-item" onclick="openLightbox('assets/5-Kurals-That Wont-Touch-Lips.jpg', '5 Kurals That Wont Touch Lips')">
+                    <img src="assets/5-Kurals-That Wont-Touch-Lips.jpg" alt="5 Kurals That Wont Touch Lips">
+                </div>
+                <div class="infographic-item" onclick="openLightbox('assets/work-root-word.png', 'Root Words for Work in Tamil')">
+                    <img src="assets/work-root-word.png" alt="Root Words for Work in Tamil">
+                </div>
+
+                <div class="infographic-item" onclick="openLightbox('assets/tamilar-time.png', 'Tamil Time System')">
+                    <img src="assets/tamilar-time.png" alt="Tamil Time System">
+                </div>
+
+                <div class="infographic-item" onclick="openLightbox('assets/tamil-ur.jpg', 'Tamil Ur')">
+                    <img src="assets/tamil-ur.jpg" alt="Tamil Ur">
+                </div>
+                <div class="infographic-item" onclick="openLightbox('assets/manthan-udamai.jpg', 'Manthan Udamai')">
+                    <img src="assets/manthan-udamai.jpg" alt="Manthan Udamai">
+                </div>
+
+                <div class="infographic-item" onclick="openLightbox('assets/mother-language-day.png', 'Mother Language Day')">
+                    <img src="assets/mother-language-day.png" alt="Mother Language Day">
+                </div>
+                
+                <div class="infographic-item" onclick="openLightbox('assets/gamification.png', 'Gamification in Learning')">
+                    <img src="assets/gamification.png" alt="Gamification in Learning">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- In The News Section -->
+    <section class="news-section" id="news">
+        <div class="container">
+            <div class="news-grid">
+                <!-- News Header -->
+                <div class="news-category">
+                    <div class="news-category-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3>செய்தியில்</h3>
+                    <h2>In the News</h2>
+                </div>
+                
+                
+                <div class="news-item news-video">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/a-kK6LaHA6g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+                <div class="news-item news-video">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/eRfx9EVPGGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+                <div class="news-item">
+                    <img src="assets/sorputhir-tamilmalar.jpg" alt="Sorputhir Tamil Malar">
+                </div>
+                
+                <div class="news-item">
+                    <img src="assets/soladle-makka-osai.jpg" alt="Soladle Makkal Osai">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <p class="about-text">OMTAMIL is a social-tech enterprise developing interactive educational content in Tamil.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/omtamil-logo.png" alt="OMTAMIL Logo">
+                    <h3>ஓம்தமிழ்</h3>
+                </div>
+                <div class="footer-info">
+                    <p class="copyright">© 2012-2022. OMTAMIL DOTCOM (002135971-U). All rights reserved.</p>
+                    <p class="tech-credit">Tech by <a href="http://otpam.com">OTPAM</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script>
+        // Lightbox Functions
+        function openLightbox(imgSrc, caption) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const lightboxCaption = document.getElementById('lightbox-caption');
+            
+            lightbox.style.display = 'flex';
+            lightboxImg.src = imgSrc;
+            lightboxCaption.textContent = caption;
+            
+            // Prevent body scroll
+            document.body.style.overflow = 'hidden';
+            
+            // Add animation class
+            setTimeout(() => {
+                lightbox.classList.add('active');
+            }, 10);
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.remove('active');
+            
+            setTimeout(() => {
+                lightbox.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }, 300);
+        }
+
+        // Close on Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeLightbox();
+            }
+        });
+    </script>
+
+    <script>
+        // Animated headline functionality
+        const dynamicTexts = ['நுட்பவியல்', 'விளையாட்டுகள்', 'செயலிகள்', 'விழியங்கள்'];
+        let currentIndex = 0;
+        const dynamicTextElement = document.getElementById('dynamicText');
+
+        function animateText() {
+            dynamicTextElement.style.opacity = '0';
+            setTimeout(() => {
+                currentIndex = (currentIndex + 1) % dynamicTexts.length;
+                dynamicTextElement.textContent = dynamicTexts[currentIndex];
+                dynamicTextElement.style.opacity = '1';
+            }, 300);
+        }
+
+        // Start animation
+        setInterval(animateText, 2500);
+
+        // Navigation menu functionality
+        const navItems = document.querySelectorAll('.feature-item');
+        const sections = document.querySelectorAll('section[id]');
+
+        // Smooth scrolling for navigation links
+        navItems.forEach(item => {
+            item.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                
+                if (targetSection) {
+                    // Remove active class from all nav items
+                    navItems.forEach(nav => nav.classList.remove('active'));
+                    // Add active class to clicked item
+                    this.classList.add('active');
+                    
+                    // Scroll to section with offset for sticky nav
+                    const navHeight = document.querySelector('.features-section').offsetHeight;
+                    const targetPosition = targetSection.offsetTop - navHeight - 10;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Update active nav item on scroll
+        function updateActiveNav() {
+            const navHeight = document.querySelector('.features-section').offsetHeight;
+            const scrollPosition = window.scrollY + navHeight + 50;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute('id');
+
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    navItems.forEach(item => {
+                        item.classList.remove('active');
+                        if (item.getAttribute('href') === `#${sectionId}`) {
+                            item.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }
+
+        // Throttle scroll event for performance
+        let isScrolling = false;
+        window.addEventListener('scroll', function() {
+            if (!isScrolling) {
+                window.requestAnimationFrame(function() {
+                    updateActiveNav();
+                    isScrolling = false;
+                });
+                isScrolling = true;
+            }
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Set initial active state
+        window.addEventListener('load', updateActiveNav);
+        
+        // Video thumbnail click handler for mobile
+        document.querySelectorAll('.video-thumbnail').forEach(thumbnail => {
+            thumbnail.addEventListener('click', function() {
+                const videoItem = this.closest('.video-item');
+                const playlistId = videoItem.getAttribute('data-playlist');
+                if (playlistId) {
+                    // Open YouTube playlist in new tab
+                    window.open(`https://www.youtube.com/playlist?list=${playlistId}`, '_blank');
+                }
+            });
+        });
+        
+        // Event header click handler for mobile
+        document.querySelectorAll('.event-header').forEach(header => {
+            header.addEventListener('click', function() {
+                const eventItem = this.closest('.event-item');
+                const playlistId = eventItem.getAttribute('data-playlist');
+                if (playlistId && window.innerWidth <= 768) {
+                    // Open YouTube playlist in new tab on mobile
+                    window.open(`https://www.youtube.com/playlist?list=${playlistId}`, '_blank');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

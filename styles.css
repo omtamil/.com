@@ -282,14 +282,14 @@ p {
 
 /* Mobile Apps Section */
 .mobile-apps-section {
-    padding: 30px 0;
+    padding: 40px 0;
     background: #f8f9fa;
 }
 
 .apps-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
     align-items: start;
 }
 
@@ -335,9 +335,9 @@ p {
 
 .app-banner {
     position: relative;
-    border-radius: 12px;
+    border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background: white;
     text-decoration: none;
@@ -346,8 +346,8 @@ p {
 }
 
 .app-banner:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     text-decoration: none;
 }
 
@@ -363,21 +363,69 @@ p {
     left: 0;
     right: 0;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
-    padding: 15px;
+    padding: 12px;
     color: white;
 }
 
 .app-banner-overlay h4 {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    margin: 0 0 5px 0;
+    margin: 0 0 3px 0;
 }
 
 .app-banner-overlay p {
     color: rgba(255, 255, 255, 0.9);
-    font-size: 13px;
+    font-size: 12px;
     margin: 0;
+}
+
+/* App Items */
+.app-item {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.app-item:hover {
+    transform: translateY(-3px);
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.app-icon {
+    padding: 10px;
+    background: linear-gradient(135deg, #6EC1E4, #4054B2);
+}
+
+.app-icon img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.app-info {
+    padding: 10px;
+}
+
+.app-info h3 {
+    color: #191919;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.app-info p {
+    color: #595959;
+    margin: 0;
+    font-size: 13px;
 }
 
 /* Navigation Menu Section */
@@ -655,6 +703,13 @@ p {
     animation: fadeInUp 0.6s ease forwards;
 }
 
+/* Large Screen Optimizations */
+@media (min-width: 1200px) {
+    .apps-grid {
+        gap: 20px;
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -721,12 +776,25 @@ p {
     }
 
     .apps-grid {
-        grid-template-columns: 1fr;
-        gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
 
     .apps-category {
         grid-column: 1 / -1;
+    }
+
+    .app-icon img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .app-info h3 {
+        font-size: 14px;
+    }
+
+    .app-info p {
+        font-size: 12px;
     }
 
     .apps-category-icon,
